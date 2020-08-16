@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 body{
-  background-image: url(bg_index.png);
+  background-image: url(bg_index.PNG);
 }
 p{
   width: 600px;
