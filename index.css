@@ -13,3 +13,23 @@ p{
   color: #ffffff;
   font-family: 'Dancing Script', cursive;
 }
+/* Responsive
+------------------------------------*/
+@media screen and (min-width:400px){
+  p{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:750px){
+  body{
+    background-position: center;
+    background-image: url(bg_index.png);
+  }
+  p{
+    width: 300px;
+    height:600px;
+    font-size: 25px;
+    padding: 10px;
+  }
+}
